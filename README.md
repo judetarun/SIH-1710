@@ -1,7 +1,7 @@
-# Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+  # Smart India Hackathon Workshop
+# Date:18.09.2026
+## Register Number:212224040144
+## Name:JUDE TARUN 
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,15 +11,83 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+RailNav AI – Smart Railway Station Navigation System
 
+RailNav AI is a multi-platform indoor navigation solution designed to help passengers easily locate platforms, ticket counters, waiting halls, food courts, restrooms, exits, elevators, escalators, and other station facilities. The system combines interactive 3D maps, AI-powered route planning, real-time updates, voice assistance, and accessibility-focused navigation to provide a seamless travel experience.
+
+The solution can be accessed through a mobile application, railway digital kiosks, and integration with existing railway applications such as RailMadad and IRCTC.
 
 ## Proposed Solution / Architecture Diagram
+<img width="453" height="657" alt="image" src="https://github.com/user-attachments/assets/4778daf7-8c97-401c-9aa8-68d760877b10" />
 
 
 ## Use Cases
-
+Passenger Navigation
+Locate platforms quickly.
+Find nearest restroom, waiting hall, food court, or exit.
+Accessibility Assistance
+Wheelchair-accessible route guidance.
+Voice-guided navigation for visually impaired users.
+Emergency Navigation
+Direct passengers to emergency exits.
+Provide evacuation routes during emergencies.
+Digital Kiosk Assistance
+Search station facilities.
+Generate QR code for route transfer to mobile app.
+Railway Administration
+Update station maps and facility information.
+Monitor passenger movement and congestion hotspots.
 
 ## Technology Stack
-
+### Frontend
+Flutter (Mobile Application)
+React.js (Web Dashboard)
+Touch UI for Kiosks
+### Backend
+Django / Node.js
+REST APIs
+### Database
+PostgreSQL
+Firebase Realtime Database
+### Navigation & Mapping
+Mapbox
+OpenStreetMap
+Dijkstra's Algorithm
+A* Pathfinding Algorithm
+### AI & Accessibility
+Speech-to-Text
+Text-to-Speech
+AI Chat Assistant
+### Infrastructure
+Docker
+AWS / Azure Cloud
+Nginx
 
 ## Dependencies
+### Frontend Dependencies
+flutter
+provider
+google_maps_flutter
+flutter_tts
+speech_to_text
+http
+### Backend Dependencies
+django
+djangorestframework
+psycopg2
+firebase-admin
+numpy
+networkx
+### Database
+PostgreSQL
+Firebase Realtime Database
+### Additional Services
+BLE Beacon SDK
+Mapbox SDK
+Google Text-to-Speech API
+OpenStreetMap APIs
+### Hardware Requirements
+Digital Touchscreen Kiosks
+BLE Beacons
+Station Information Displays
+Cloud Server Infrastructure
